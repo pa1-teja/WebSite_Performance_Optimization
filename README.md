@@ -18,5 +18,9 @@ To get started, check out the repository and inspect the code.
 
 2. Optimized all the images used in all the pages to transfer less data over the wire and make the page load faster.
 
-3. Optimized the views/js/main.js file to reduce too much DOM manipulations.
+3. Optimized the views/js/main.js and made the following changes.
+
+      * added all the animation changes into a map object and used the values while the scroll event occurs for better performance. Instead calculatong the location of the pizza image and placing the image at the location at every scroll event occurance.
+
+      * removed the extra calculations part which hets executed when the scroll bar is operated.
 
